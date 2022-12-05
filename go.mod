@@ -14,3 +14,11 @@ go 1.19
 // kalau ingin dirilis di git kita tidak perlu membuat versi softwarenya
 // cukup buat saja  nama tag dan push kedalam git
 // module yg kita buat
+
+
+// untuk melakukan perubahan besar tinggal tambahkan versinya dengan menambahkan /vnamaversi ke 
+//belakang darinama modul golang saat ini
+// lalu push lagi versi terbarunya ke github
+// biasanya developer golang menambahkan  /vversi dibelakang nama moduke nya jika terjadi mayor update
+// sehingga jika ingin diupgrade di dependencies nya tinggal hapus require yg versi lama , lalu ketikan perintah diterminal
+// go get namamodulebaru/vversibaru , nanti sudah otomatis keganti versinya
